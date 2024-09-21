@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0EFED; /* Color de fondo gris claro */
+}
+
+html{
+    background-color: #F0EFED;
+}
+
+header {
+    background-color: #F0EFED;
+    padding: 30px;
+    margin:5px;
+    text-align: center;
+    color: #C22E2E;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+  
+    color: #000000; 
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    float:right;
+}
+.boton2 {
+    font-size: 10px;
+    color: #C22E2E; 
+    float:right;
+}
+
+nav {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F0EFED;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #C22E2E;
+    text-decoration: none;}
+
+.estadisticas {
+    background-color: #F0EFED;
+    padding: 50px 0;
+}
+
+.graficos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.canvas {
+    width: 400px;
+}
+
+
+
+.estadisticas {
+    background-color: #F0EFED; /* Color de fondo del pie de página */
+    color: #252323; /* Color de texto blanco */
+    padding: 20px 0; /* Espaciado interno superior e inferior */
+}
+
+.contenedor {
+    max-width: 1200px; /* Ancho máximo del pie de página */
+    margin: 0 auto; /* Centrar el pie de página horizontalmente */
+    display: flex; /* Distribución de los contenedores en línea */
+    justify-content: space-between; /* Espacio entre los contenedores */
+}
+
+.contenedor-izquierdo,
+.contenedor-derecho,
+.contenedor-medio {
+    flex-basis: 50%; /* Cada contenedor ocupa el 30% del ancho disponible */
+    padding: 0 20px; /* Espaciado interno */
+}
+
+.contenedor-izquierdo h3,
+.contenedor-derecho h3,
+.contenedor-medio h3{
+    font-size: 1.2em; /* Tamaño del título */
+    margin-bottom: 0px; /* Espacio inferior del título */
+}
+
+.pie-de-pagina {
+    background-color: #C22E2E; /* Color de fondo del pie de página */
+    color: #252323; /* Color de texto blanco */
+   
+}
+
+.contenido {
+    max-width: 10px; /* Ancho máximo del pie de página */
+    margin: 0 auto; /* Centrar el pie de página horizontalmente */
+    display: flex; /* Distribución de los contenedores en línea */
+    
+}
+
+.banner {
+    background-image: url('banner.jpg'); /* Imagen de fondo del banner */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el banner */
+  
+    height: 80px; /* Altura del banner */
+    color: #ffffff; /* Color de texto blanco */
+   
+    display: flex;
+    align-items: center;
+    width:auto; /* Banner ocupa todo el ancho de la página */
+}
+
+.banner-contenido {
+    background-color: #C22E2E; /* Fondo semi-transparente oscuro */
+    padding: 20px;
+    border-radius: 0px; /* Bordes redondeados */
+    width: 2700px; /* Ancho del contenido dentro del banner */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+}
+
+.cuadro {
+    background-color: #C22E2E; /* Color de fondo gris claro */
+    border: 2px solid #C22E2E; /* Borde de 2 píxeles sólido de color negro (#333) */
+    padding: 1px; /* Relleno interior de 20 píxeles */
+    width: 320px; /* Ancho del cuadro */
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+}
+
+.cuadro2 {
+    background-color: #6b6b6b; /* Color de fondo gris claro */
+    border: 2px solid #6b6b6b; /* Borde de 2 píxeles sólido de color negro (#333) */
+    padding: 1px; /* Relleno interior de 20 píxeles */
+    width: 250px; /* Ancho del cuadro */
+    
+}
+
+    

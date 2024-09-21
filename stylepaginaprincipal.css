@@ -1,0 +1,140 @@
+
+html{
+    background-color: #F0EFED;
+}
+
+header {
+    background-color: #F0EFED;
+    padding: 30px;
+    margin:5px;
+    text-align: center;
+    color: #C22E2E;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#features {
+    padding: 5px;
+}
+
+#features h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+}
+
+#features article {
+    margin-bottom: 2rem;
+}
+
+#features h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+
+.banner {
+    background-image: url('banner.jpg'); /* Imagen de fondo del banner */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el banner */
+    background-position: center; /* Centra la imagen de fondo */
+    height: 115px; /* Altura del banner */
+    color: #C22E2E; /* Color de texto blanco */
+    text-align: center; /* Alineación del texto al centro */
+    display: flex;
+    align-items: center;
+    width: 1280px; /* Banner ocupa todo el ancho de la página */
+}
+
+.banner-contenido {
+    background-color: #F0EFED; /* Fondo semi-transparente oscuro */
+    padding: 20px;
+    border-radius: 0px; /* Bordes redondeados */
+    width: 2700px; /* Ancho del contenido dentro del banner */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F0EFED; 
+    color: #000000; 
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    float:right;
+    font-size: 12px;
+    margin-top: 160px;
+}
+
+.boton:hover {
+    background-color: #b3b7bb; 
+}
+
+.recuadro {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+}
+
+nav {
+    background-color: #F0EFED;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;}
+
+    .cuadro {
+        background-color: #C22E2E; /* Color de fondo gris claro */
+        border: 2px solid #C22E2E; /* Borde de 2 píxeles sólido de color negro (#333) */
+        padding: 1px; /* Relleno interior de 20 píxeles */
+        width: 550px; /* Ancho del cuadro */
+        margin-left: 20px;
+       
+    }
+    
+    .cuadro2 {
+        background-color: #bbbbbb; /* Color de fondo gris claro */
+        border: 2px solid #bbbbbb; /* Borde de 2 píxeles sólido de color negro (#333) */
+        padding: 1px; /* Relleno interior de 20 píxeles */
+        width: 1000px; /* Ancho del cuadro */
+        margin-left: 200px;
+        height: 100px;
+        
+        
+    }
+
+    .pie-de-pagina {
+        background-color: #adadad; /* Color de fondo del pie de página */
+        color: #ffffff; /* Color de texto blanco */
+       
+    }

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0EFED; /* Color de fondo gris claro */
+}
+
+header {
+    background-color: #c44646; /* Rojo */
+    color: #F3F2F2; /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+.alerta-urbana h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.alerta-urbana p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.nosotros {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contenido h2 {
+    color: #C22E2E; /* Rojo */
+}
+
+.contenido p {
+    line-height: 1.6;
+}
+
+.contenido img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000; /* Negro */
+    color: #F3F2F2; /* Blanco */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

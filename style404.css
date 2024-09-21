@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .error-container {
+    text-align: center;
+  }
+
+  .error-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 4em;
+    color: #333;
+    margin: 0;
+    <script>
+        function volverAlIndex() {
+            window.location.href = 'index.html'; // Cambia 'index.html' por la ruta de tu página inicial
+        }
+        </script>
+
+  }
+
+  p {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Error 404 - Página no encontrada</title>
+      link
+  </head>
+  <body>
+      <h1>Error 404 - Página no encontrada</h1>
+      <p>Lo sentimos, la página que estás buscando no se encuentra en este servidor.</p>
+      <button onclick="volverAlIndex()">Volver al inicio</button>
+  
+      <script>
+          function volverAlIndex() {
+              window.location.href = 'index.html'; // Cambia 'index.html' por la ruta de tu página inicial
+          }
+          </script>
+  
+  
+  </body>
+  </html>
